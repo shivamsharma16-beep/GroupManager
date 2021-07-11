@@ -7,7 +7,7 @@ soon
 
 A modular Telegram Python bot running on python3 with an sqlalchemy database.
 
-Can be found on telegram as [GroupManager](https://t.me/missdelirious_bot).
+Can be found on telegram as [Miss Delirious Bot](https://t.me/missdelirious_bot).
 
 Alternatively, [find me on telegram](https://t.me/hydroxy_op)! (Keep all support questions in the support chat, where more people can help you.)
 
