@@ -1,7 +1,7 @@
 # How to deploy?
 soon
 
-# GroupManager
+# MissDelirious
 
 [![Deploy To Heroku] Coming Soon
 
