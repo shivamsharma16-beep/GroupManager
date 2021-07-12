@@ -11,8 +11,8 @@ class Config(object):
 
     # REQUIRED
     API_KEY = "1849713568:AAHps-KLkGrQG0r39UcPxbqu2_oGcBpTvuM"
-    OWNER_ID = "like"  # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "YOUR USERNAME HERE"
+    OWNER_ID = "1264821836"  # If you dont know, run the bot and do /id in your private chat with it
+    OWNER_USERNAME = "hydroxy_op"
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = 'sqldbtype://username:pw@hostname:port/db_name'  # needed for any database modules
@@ -23,18 +23,18 @@ class Config(object):
     URL = None
 
     # OPTIONAL
-    SUDO_USERS = []  # List of id's (not usernames) for users which have sudo access to the bot.
-    SUPPORT_USERS = []  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
-    WHITELIST_USERS = []  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
+    SUDO_USERS = [1296635251]  # List of id's (not usernames) for users which have sudo access to the bot.
+    SUPPORT_USERS = [1296635251]  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
+    WHITELIST_USERS = [1296635251]  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
     MAPS_API = ''
     CERT_PATH = None
     PORT = 5000
     DEL_CMDS = False  # Whether or not you should delete "blue text must click" commands
-    STRICT_ANTISPAM = False
+    STRICT_ANTISPAM = True
     WORKERS = 8  # Number of subthreads to use. This is the recommended amount - see for yourself what works best!
     BAN_STICKER = 'CAADAgADOwADPPEcAXkko5EB3YGYAg'  # banhammer marie sticker
-    STRICT_GBAN = False
-    STRICT_GMUTE = False
+    STRICT_GBAN = True
+    STRICT_GMUTE = True
     ALLOW_EXCL = True  # Allow ! commands as well as /
     API_OPENWEATHER = None # OpenWeather API
 
